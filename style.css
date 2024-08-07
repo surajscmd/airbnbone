@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo{
+    color: #ff385c;
+}
+
+.middlesec{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    font-size: 13px;
+}
+
+.wordings{
+    font-weight: 600;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-right: 2px solid rgb(140, 140, 140);
+}
+.guestt{
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgb(158, 155, 155);
+}
+
+.search-icon {
+        color: white;
+        background-color: #ff385c;
+        padding: 10px;
+        border-radius: 50%;
+}
+.ayhbtt{
+      background-color: transparent;
+      border: none;
+      font-size: 15px;
+      padding: 10px;
+
+}
+.abb{
+   padding-right: 10px;
+
+}
+.ayhbtt:hover{
+    background-color: rgb(205, 202, 202);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;    
+    
+}
+
+.menuside{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 5px ;
+}
+.menuside svg {
+    margin-left: 7px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1350px;
+    margin: 20px auto;
+   
+    background-color: white;
+    top: 0;
+    
+}
+
+
+.endsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+
+.images{
+    display: flex;
+    gap: 37px;
+    
+}
+
+.series{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 18px;
+   
+}
+.image{
+    justify-content: center;
+    margin: 20px auto;
+  
+}
+.series img{
+    width: 25px;
+    height: 25px;
+}
+
+.filterbutt{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 400;
+
+
+   
+}
+.filterbutt p{
+    font-weight: 520;
+}
+
+.border{
+    border: 1px solid rgb(188, 185, 185);
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.continer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .divsion {
+    display: flex;
+    align-items: center;
+     justify-content: center;
+  
+   
+   
+  }
+  .borderr{
+    border: 1px solid lightgray;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 7px 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+  }
+  
+ 
+  .discc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 300px;
+    
+
+  }
+
+  .bold{
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    border-right: 1px solid lightgray;
+  }
+  .nonbold{
+    padding-left: 15px;
+    font-size: 14px;
+    color: gray;
+  }
+  .card{
+    width: 330px;
+
+  }
+.card img{
+  width: 330px;
+  height: 300px;
+  
+  border-radius: 20px;
+  
+ }
+ .rel {
+  position: relative;
+
+ }
+ .rel svg{
+  
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  
+ }
+ .abssvm{
+  height: 35px;
+  
+
+ }
+ .hanger{
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+ .seriesqq{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+ }
+ .seriesqq svg{
+  font-size: 13px;
+ }
+
+ .boller{
+  font-size: 15px;
+  font-weight: 500;
+ }
+ 
+ .lighttext{
+  
+  font-weight: 325;
+  font-size: 16px;
+  margin-top: -15px;
+ }
+ .bolln{
+  margin-top: -15px;
+  font-weight: 500;
+
+ }
+ .nonbld{
+  font-weight: 300;
+  font-size: 13px;
+ }
+
+ .hotels{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+ }
+
+ .leftpart{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0px;
+ }
+ .leftpart .left{
+  font-weight: 500;
+ }
+ 
